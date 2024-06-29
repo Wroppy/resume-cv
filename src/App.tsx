@@ -6,6 +6,7 @@ import EducationSection from "./components/EducationSection/EducationSection";
 import AchievementsSection from "./components/AchievementsSection/AchievementsSection";
 import VolunteerAndCommunitySection from "./components/VolunteerAndCommunitySection/VolunteerAndCommunitySection";
 import SkillsSection from "./components/SkillsSection/SkillsSection";
+import HobbiesAndInterests from "./components/HobbiesAndInterests/HobbiesAndInterests";
 
 export const themeOptions: ThemeOptions = {
   palette: {
@@ -31,6 +32,8 @@ function App() {
         <VolunteerAndCommunitySection />
         <CustomDivider />
         <SkillsSection />
+        <CustomDivider />
+        <HobbiesAndInterests />
       </div>
     </ThemeProvider>
   );
