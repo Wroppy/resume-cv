@@ -5,6 +5,9 @@
 
   .RecordLeftSide {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5mm;
   }
 
   .RecordTimestamp {

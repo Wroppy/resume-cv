@@ -35,7 +35,7 @@ const AchievementsSection = () => {
       <div className="AchievementsHeading">Achievements</div>
       <div className="AchievementsContent">
         {achievements.map((record, index) => (
-          <RecordComponent key={index} record={record} />
+          <RecordComponent key={index} record={record} bold={false} />
         ))}
       </div>
     </div>

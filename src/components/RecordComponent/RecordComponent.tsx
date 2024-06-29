@@ -1,16 +1,20 @@
 import "./RecordComponent.scss";
 import { Record } from "../../types/Record";
 
-type Props = { children?: React.ReactNode; record: Record };
+type Props = { children?: React.ReactNode; record: Record; bold?: boolean };
 
-const RecordComponent = ({ children, record }: Props) => {
+const RecordComponent = ({ children, record, bold = true }: Props) => {
+  const style = {
+    fontWeight: bold ? "500" : "normal",
+  };
+
   return (
     <div className="Record">
       <div className="RecordLeftSide">
-        <div className="RecordHeading">{record.name}</div>
+        <div className="RecordHeading" style={style}>{record.name}</div>
         {children && <div className="RecordContent">{children}</div>}
       </div>
-      <div className="RecordTimestamp">{record.timestamp}</div>
+      <div className="RecordTimestamp" style={style}>{record.timestamp}</div>
     </div>
   );
 };
