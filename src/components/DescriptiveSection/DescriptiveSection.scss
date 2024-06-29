@@ -1,0 +1,9 @@
+.DescriptiveSectionContent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  .Descriptor {
+    flex-basis: 33%;
+  }
+}
