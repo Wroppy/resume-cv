@@ -8,7 +8,7 @@ import VolunteerAndCommunitySection from "./components/VolunteerAndCommunitySect
 import SkillsSection from "./components/SkillsSection/SkillsSection";
 import HobbiesAndInterests from "./components/HobbiesAndInterests/HobbiesAndInterests";
 
-export const themeOptions: ThemeOptions = {
+const themeOptions: ThemeOptions = {
   palette: {
     primary: {
       main: "#1e88e5",

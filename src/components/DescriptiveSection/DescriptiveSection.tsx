@@ -1,4 +1,3 @@
-import React from "react";
 import RecordSection from "../RecordSection/RecordSection";
 import "./DescriptiveSection.scss";
 
