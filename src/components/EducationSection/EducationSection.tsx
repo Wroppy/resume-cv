@@ -4,7 +4,11 @@ import { Record } from "../../types/Record";
 import RecordComponent from "../RecordComponent/RecordComponent";
 import RecordSection from "../RecordSection/RecordSection";
 
-const EducationSection = () => {
+type Props = {
+  split?: boolean;
+};
+
+const EducationSection = ({ split = false }: Props) => {
   const education: Record[] = [
     {
       name: "University of Auckland",
@@ -19,7 +23,7 @@ const EducationSection = () => {
   const educationContent: React.ReactNode[] = [
     <>
       <div>
-        Bachelor of Software Engineering (Honours) / Bachelor of Science
+        Bachelor of Software Engineering (Honours) /{split && "\n"} Bachelor of Science
         (Mathematics)
       </div>
       <div>GPA: 8.80/9.00</div>
