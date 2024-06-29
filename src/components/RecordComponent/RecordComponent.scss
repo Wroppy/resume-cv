@@ -12,11 +12,18 @@
 
   .RecordTimestamp {
     width: 28mm;
+    min-width: 28mm;
+
     text-align: right;
   }
 
   .RecordTimestamp,
   .RecordHeading {
     font-weight: 500;
+  }
+
+  .RecordContent {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

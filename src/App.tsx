@@ -4,6 +4,7 @@ import CustomDivider from "./components/CustomDivider/CustomDivider";
 import CvHeading from "./components/CvHeading/CvHeading";
 import EducationSection from "./components/EducationSection/EducationSection";
 import AchievementsSection from "./components/AchievementsSection/AchievementsSection";
+import VolunteerAndCommunitySection from "./components/VolunteerAndCommunitySection/VolunteerAndCommunitySection";
 
 export const themeOptions: ThemeOptions = {
   palette: {
@@ -25,6 +26,8 @@ function App() {
         <EducationSection />
         <CustomDivider />
         <AchievementsSection />
+        <CustomDivider />
+        <VolunteerAndCommunitySection />
       </div>
     </ThemeProvider>
   );
