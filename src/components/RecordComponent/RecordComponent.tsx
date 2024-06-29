@@ -1,14 +1,16 @@
 import "./RecordComponent.scss";
 import { Record } from "../../types/Record";
 
-type Props = { children?: React.ReactNode, record: Record };
+type Props = { children?: React.ReactNode; record: Record };
 
-const RecordComponent = (props: Props) => {
+const RecordComponent = ({ children, record }: Props) => {
   return (
     <div className="Record">
-      <div className="RecordHeading">{props.record.name}</div>
-      <div className="RecordTimestamp">{props.record.timestamp}</div>
-      <div className="RecordContent">{props.children}</div>
+      <div className="RecordLeftSide">
+        <div className="RecordHeading">{record.name}</div>
+        {children && <div className="RecordContent">{children}</div>}
+      </div>
+      <div className="RecordTimestamp">{record.timestamp}</div>
     </div>
   );
 };
