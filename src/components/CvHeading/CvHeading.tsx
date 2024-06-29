@@ -1,4 +1,3 @@
-import React from "react";
 import "./CvHeading.scss";
 import { EmailOutlined, GitHub, Phone } from "@mui/icons-material";
 import { Info } from "../../types/Info";
@@ -6,6 +5,7 @@ import InformationCard from "../InformationCard/InformationCard";
 import { info, name } from "../../secrets";
 
 const CvHeading = () => {
+  // Sets the information to be displayed in the InformationCard components
   const infos: Info[] = [
     {
       Icon: Phone,
