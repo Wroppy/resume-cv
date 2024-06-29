@@ -11,3 +11,8 @@
   width: 100%;
   padding: 5mm;
 }
+
+.CV_Redesigned {
+  flex-direction: row;
+  gap: 1rem;
+}

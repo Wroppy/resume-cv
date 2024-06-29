@@ -1,9 +1,15 @@
 import "./App.css";
 
-import React from "react";
+import MainSection from "./components/Redesigned/MainSection/MainSection";
+import SubSection from "./components/Redesigned/SubSection/SubSection";
 
 const CvNewLayout = () => {
-  return <div>CVNewLayout</div>;
+  return (
+    <div className="CV CV_Redesigned">
+      <MainSection />
+      <SubSection />
+    </div>
+  );
 };
 
 export default CvNewLayout;
