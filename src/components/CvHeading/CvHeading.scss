@@ -1,0 +1,13 @@
+.CvHeading {
+  display: flex;
+  width: 100%;
+
+  .NameContainer {
+    flex-grow: 1;
+    font-size: 40px;
+    font-weight: bold;
+    
+    display: flex;
+    align-items: center;
+  }
+}

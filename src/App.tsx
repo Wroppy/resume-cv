@@ -1,8 +1,12 @@
 import "./App.css";
-
+import CvHeading from "./components/CvHeading/CvHeading";
 
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <div className="CV">
+      <CvHeading />
+    </div>
+  );
 }
 
 export default App;
