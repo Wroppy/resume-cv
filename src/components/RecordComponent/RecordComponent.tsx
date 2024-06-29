@@ -1,7 +1,7 @@
 import "./RecordComponent.scss";
 import { Record } from "../../types/Record";
 
-type Props = { children: React.ReactNode; record: Record };
+type Props = { children?: React.ReactNode, record: Record };
 
 const RecordComponent = (props: Props) => {
   return (

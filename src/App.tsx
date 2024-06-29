@@ -3,7 +3,7 @@ import "./App.css";
 import CustomDivider from "./components/CustomDivider/CustomDivider";
 import CvHeading from "./components/CvHeading/CvHeading";
 import EducationSection from "./components/EducationSection/EducationSection";
-
+import AchievementsSection from "./components/AchievementsSection/AchievementsSection";
 
 export const themeOptions: ThemeOptions = {
   palette: {
@@ -23,6 +23,8 @@ function App() {
         <CvHeading />
         <CustomDivider />
         <EducationSection />
+        <CustomDivider />
+        <AchievementsSection />
       </div>
     </ThemeProvider>
   );
