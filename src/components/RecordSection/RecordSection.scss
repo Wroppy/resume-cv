@@ -1,0 +1,15 @@
+.RecordSection {
+  width: 100%;
+
+  .RecordSectionHeading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5mm;
+  }
+
+  .RecordSectionContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2mm;
+  }
+}

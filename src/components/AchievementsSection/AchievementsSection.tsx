@@ -1,7 +1,7 @@
-import React from "react";
 import "./AchievementsSection.scss";
 import { Record } from "../../types/Record";
 import RecordComponent from "../RecordComponent/RecordComponent";
+import RecordSection from "../RecordSection/RecordSection";
 
 const AchievementsSection = () => {
   const achievements: Record[] = [
@@ -31,14 +31,11 @@ const AchievementsSection = () => {
     },
   ];
   return (
-    <div className="AchievementsSection">
-      <div className="AchievementsHeading">Achievements</div>
-      <div className="AchievementsContent">
-        {achievements.map((record, index) => (
-          <RecordComponent key={index} record={record} bold={false} />
-        ))}
-      </div>
-    </div>
+    <RecordSection heading="Achievements">
+      {achievements.map((record, index) => (
+        <RecordComponent key={index} record={record} bold={false} />
+      ))}
+    </RecordSection>
   );
 };
 

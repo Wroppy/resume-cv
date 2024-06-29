@@ -2,6 +2,7 @@ import React from "react";
 import "./EducationSection.scss";
 import { Record } from "../../types/Record";
 import RecordComponent from "../RecordComponent/RecordComponent";
+import RecordSection from "../RecordSection/RecordSection";
 
 const EducationSection = () => {
   const education: Record[] = [
@@ -33,16 +34,13 @@ const EducationSection = () => {
   ];
 
   return (
-    <div className="EducationSection">
-      <div className="EducationHeading">Education</div>
-      <div className="EducationContent">
-        {education.map((record, index) => (
-          <RecordComponent key={index} record={record}>
-            {educationContent[index]}
-          </RecordComponent>
-        ))}
-      </div>
-    </div>
+    <RecordSection heading="Education">
+      {education.map((record, index) => (
+        <RecordComponent key={index} record={record}>
+          {educationContent[index]}
+        </RecordComponent>
+      ))}
+    </RecordSection>
   );
 };
 
