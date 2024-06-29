@@ -1,3 +1,15 @@
 .EducationSection {
   width: 100%;
+
+  .EducationHeading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5mm;
+  }
+
+  .EducationContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2mm;
+  }
 }
