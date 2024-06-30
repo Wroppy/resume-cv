@@ -33,6 +33,18 @@ const ProjectsSection = () => {
         data structure, and the breadth-first search algorithm.
       </div>
     </>,
+    <>
+      <div>
+        A website for flat management specifically made for use within my flat.
+        The website allows users to view and manage shared expenses, shopping
+        lists, and chores within the flat.
+      </div>
+      <div>
+        Written in Next.js with Typescript, and Sass as the preprocessor for
+        CSS. Uses MongoDB as its database and NextAuth.js for CSS. Uses MongoDB
+        as its database and NextAuth.js for authentication.
+      </div>
+    </>,
   ];
 
   return (
