@@ -1,4 +1,3 @@
-import React from "react";
 import "./SubColumn.scss";
 import ContactInfoSection from "../ContactInfoSection/ContactInfoSection";
 

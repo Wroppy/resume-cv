@@ -6,6 +6,10 @@ import { Record } from "../../types/Record";
 const VolunteerAndCommunitySection = () => {
   const volunteerAndCommunity: Record[] = [
     {
+      name: "University of Auckland Clubs",
+      timestamp: "2024",
+    },
+    {
       name: "Scots College Team 2 Badminton Captain",
       timestamp: "2021 - 2022",
     },
@@ -16,6 +20,14 @@ const VolunteerAndCommunitySection = () => {
   ];
 
   const volunteerAndCommunityContent: React.ReactNode[] = [
+    <>
+      <div>
+        A member of the Thai Student Association, SESA (Software Engineering
+        Student Association), DEVS Society, WDCC (Web Development & Consulting
+        Club), AUES (Auckland University Engineering Society), Cantonese Student
+        Society of Auckland, and JAM+ (Japanese Auckland Meetup+).
+      </div>
+    </>,
     <>
       <div>
         Led the team to a 1st place finish in the Wellington Secondary Schools
