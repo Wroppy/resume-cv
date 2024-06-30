@@ -6,7 +6,6 @@ import AchievementsSection from "../AchievementsSection/AchievementsSection";
 import VolunteerAndCommunitySection from "../VolunteerAndCommunitySection/VolunteerAndCommunitySection";
 import PersonalStatementSection from "../PersonalStatementSection/PersonalStatementSection";
 import ProjectsSection from "../ProjectsSection/ProjectsSection";
-import RefereesSection from "../RefereesSection/RefereesSection";
 
 const MainColumn = () => (
   <div className="MainColumn">
@@ -21,8 +20,6 @@ const MainColumn = () => (
     <VolunteerAndCommunitySection />
     <CustomDivider />
     <ProjectsSection />
-    <CustomDivider />
-    <RefereesSection />
   </div>
 );
 

@@ -4,6 +4,7 @@ import CustomDivider from "../CustomDivider/CustomDivider";
 import SkillsSection from "../SkillsSection/SkillsSection";
 import HobbiesAndInterests from "../HobbiesAndInterests/HobbiesAndInterests";
 import LanguagesSection from "../LanguagesSection/LanguagesSection";
+import RefereesSection from "../RefereesSection/RefereesSection";
 
 const SubColumn = () => {
   return (
@@ -15,6 +16,8 @@ const SubColumn = () => {
       <HobbiesAndInterests />
       <CustomDivider />
       <LanguagesSection />
+      <CustomDivider />
+      <RefereesSection />
     </div>
   );
 };
