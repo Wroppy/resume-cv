@@ -1,13 +1,22 @@
 .CvHeading {
   display: flex;
   width: 100%;
+  align-items: center;
 
   .NameContainer {
     flex-grow: 1;
     font-size: 32px;
     font-weight: bold;
-    
+
     display: flex;
     align-items: center;
+  }
+
+  .BlockColour {
+    position: relative;
+    width: 5mm;
+    height: 32px;
+    background-color: black;
+    right: 5mm;
   }
 }
