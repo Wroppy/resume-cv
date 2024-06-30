@@ -8,6 +8,9 @@ const HobbiesAndInterests = () => {
     "Technology",
     "Programming",
     "Gaming",
+    "Movies & TV Shows",
+    "Baking",
+    "Traveling",
   ];
 
   return (
