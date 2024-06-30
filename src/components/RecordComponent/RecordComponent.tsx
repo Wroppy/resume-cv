@@ -6,6 +6,7 @@ type Props = { children?: React.ReactNode; record: Record; bold?: boolean };
 const RecordComponent = ({ children, record, bold = true }: Props) => {
   const style = {
     fontWeight: bold ? "500" : "normal",
+    fontSize: bold ? "16px" : "14px",
   };
 
   return (
