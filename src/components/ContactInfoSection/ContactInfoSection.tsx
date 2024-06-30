@@ -4,9 +4,7 @@ import { Info } from "../../types/Info";
 import {
   EmailOutlined,
   GitHub,
-  HomeOutlined,
   LocationOnOutlined,
-  LocationOnRounded,
   PhoneOutlined,
 } from "@mui/icons-material";
 import { info } from "../../secrets";
