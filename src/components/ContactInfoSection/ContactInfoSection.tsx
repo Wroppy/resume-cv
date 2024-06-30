@@ -5,6 +5,8 @@ import {
   EmailOutlined,
   GitHub,
   HomeOutlined,
+  LocationOnOutlined,
+  LocationOnRounded,
   PhoneOutlined,
 } from "@mui/icons-material";
 import { info } from "../../secrets";
@@ -25,7 +27,7 @@ const ContactInfoSection = () => {
       text: <a href={info.github}>{info.github}</a>,
     },
     {
-      Icon: HomeOutlined,
+      Icon: LocationOnOutlined,
       text: info.address,
     },
   ];
