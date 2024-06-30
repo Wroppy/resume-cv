@@ -8,6 +8,12 @@ const ProjectsSection = () => {
     {
       name: "Odd and Evens Game",
     },
+    {
+      name: "Risk Map Engine",
+    },
+    {
+      name: "Loded Freezer",
+    },
   ];
 
   const projectDescriptions: ReactNode[] = [
@@ -17,6 +23,14 @@ const ProjectsSection = () => {
         the Odd and Evens hand game with a bot of varying difficulty. It uses
         the factory, strategy design pattern, and the four basic object-oriented
         programming principles.
+      </div>
+    </>,
+    <>
+      <div>
+        A command line interface written in Java that allows the user to search
+        for information on countries and the shortest path between two countries
+        in the Risk game map. It uses custom exception handling, a custom graph
+        data structure, and the breadth-first search algorithm.
       </div>
     </>,
   ];
