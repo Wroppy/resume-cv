@@ -7,7 +7,6 @@ const ProjectsSection = () => {
   const projects: Record[] = [
     {
       name: "Venue Hire System",
-      timestamp: "",
     },
   ];
 
