@@ -25,7 +25,7 @@ const VolunteerAndCommunitySection = () => {
     </>,
     <>
       <div>
-        Tutored year 12 students in Mathematics, Chemistry, and Physics to help
+        Tutored Year 12 students in Mathematics, Chemistry, and Physics to help
         them achieve their academic goals.
       </div>
     </>,

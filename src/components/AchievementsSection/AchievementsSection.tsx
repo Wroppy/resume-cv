@@ -22,7 +22,7 @@ const AchievementsSection = () => {
       timestamp: "2022",
     },
     {
-      name: "Scots College 1st in NCEA level 3 Digital Technology",
+      name: "Scots College 1st in NCEA Level 3 Digital Technology",
       timestamp: "2022",
     },
     {
