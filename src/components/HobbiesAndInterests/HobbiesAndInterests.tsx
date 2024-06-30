@@ -13,7 +13,7 @@ const HobbiesAndInterests = () => {
   return (
     <DescriptiveSection
       heading="Hobbies & Interests"
-      words={hobbiesAndInterests}
+      contents={hobbiesAndInterests}
     />
   );
 };

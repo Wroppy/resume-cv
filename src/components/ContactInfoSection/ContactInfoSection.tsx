@@ -8,6 +8,7 @@ import {
   PhoneOutlined,
 } from "@mui/icons-material";
 import { info } from "../../secrets";
+import DescriptiveSection from "../DescriptiveSection/DescriptiveSection";
 
 const ContactInfoSection = () => {
   // Sets the information to be displayed in the InformationCard components
@@ -30,11 +31,12 @@ const ContactInfoSection = () => {
     },
   ];
   return (
-    <div className="InformationCards">
-      {infos.map((info, index) => (
+    <DescriptiveSection
+      heading="Contact"
+      contents={infos.map((info, index) => (
         <InformationCard key={index} info={info} />
       ))}
-    </div>
+    />
   );
 };
 

@@ -19,7 +19,7 @@ const SkillsSection = () => {
     "Touch Typing (95+ WPM)",
   ];
 
-  return <DescriptiveSection heading="Skills" words={skills} />;
+  return <DescriptiveSection heading="Skills" contents={skills} />;
 };
 
 export default SkillsSection;
