@@ -1,4 +1,3 @@
-import React from "react";
 import "./ContactInfoSection.scss";
 import InformationCard from "../InformationCard/InformationCard";
 import { Info } from "../../types/Info";
@@ -14,11 +13,11 @@ const ContactInfoSection = () => {
     },
     {
       Icon: EmailOutlined,
-      text: info.email,
+      text: <a href={`mailto:${info.email}`}>{info.email}</a>,
     },
     {
       Icon: GitHub,
-      text: info.github,
+      text: <a href={info.github}>{info.github}</a>,
     },
   ];
   return (
