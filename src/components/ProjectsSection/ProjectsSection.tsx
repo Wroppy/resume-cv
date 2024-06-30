@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import RecordSection from "../RecordSection/RecordSection";
 import { Record } from "../../types/Record";
 import RecordComponent from "../RecordComponent/RecordComponent";
@@ -13,6 +13,9 @@ const ProjectsSection = () => {
     },
     {
       name: "Loded Freezer",
+    },
+    {
+      name: "UoaTimetableParser",
     },
   ];
 
@@ -41,8 +44,21 @@ const ProjectsSection = () => {
       </div>
       <div>
         Written in Next.js with Typescript, and Sass as the preprocessor for
-        CSS. Uses MongoDB as its database and NextAuth.js for CSS. Uses MongoDB
-        as its database and NextAuth.js for authentication.
+        CSS, with MongoDB as its database and NextAuth.js for authentication.
+      </div>
+    </>,
+    <>
+      <div>
+        An application written in Python that takes an HTML page of a University
+        of Auckland timetable and parses it into an iCalender file with the help
+        from some user input. The calendar file can then be saved to storage and
+        imported into a desired calendar app (Google Calendar, Apple Calendar,
+        etc).
+      </div>
+      <div>
+        The application uses PyQt6 for its user interface, Beautiful Soup to
+        parse the HTML page, and the icalender module to create the desired
+        file.
       </div>
     </>,
   ];
