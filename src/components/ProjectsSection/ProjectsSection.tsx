@@ -6,17 +6,17 @@ import RecordComponent from "../RecordComponent/RecordComponent";
 const ProjectsSection = () => {
   const projects: Record[] = [
     {
-      name: "Venue Hire System",
+      name: "Odd and Evens Game",
     },
   ];
 
   const projectDescriptions: ReactNode[] = [
     <>
       <div>
-        A command line interface allows the user to create and manage venues and
-        their bookings. The program is written in Java and demonstrates
-        object-oriented programming principles, such as encapsulation,
-        inheritance and polymorphism.
+        A command line interface written in Java that allows the user to play
+        the Odd and Evens hand game with a bot of varying difficulty. It uses
+        the factory, strategy design pattern, and the four basic object-oriented
+        programming principles.
       </div>
     </>,
   ];
