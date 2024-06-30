@@ -1,6 +1,9 @@
+@import '../../colours.scss';
+
+
 .CustomDivider {
   width: 100%;
   height: 0.3mm;
-  background-color: #000;
+  background-color: $main;
   margin: 2.5mm 0;
 }

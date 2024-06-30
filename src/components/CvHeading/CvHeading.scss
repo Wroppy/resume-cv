@@ -1,3 +1,5 @@
+@import '../../colours.scss';
+
 .CvHeading {
   display: flex;
   width: 100%;
@@ -16,7 +18,7 @@
     position: relative;
     width: 5mm;
     height: 32px;
-    background-color: black;
+    background-color: $main;
     right: 5mm;
   }
 }

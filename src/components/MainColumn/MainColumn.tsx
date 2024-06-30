@@ -11,7 +11,7 @@ import RefereesSection from "../RefereesSection/RefereesSection";
 const MainColumn = () => (
   <div className="MainColumn">
     <CvHeading />
-    <CustomDivider />
+    <CustomDivider visible={false} />
     <PersonalStatementSection />
     <CustomDivider />
     <EducationSection />
