@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Personal CV/Resume Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a project that presents my personal CV/Resume on a website. The CV/Resume is designed to fit on an A4 sheet of paper.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a personal endeavor to create a digital version of my CV/Resume. It's designed with a focus on readability and ease of printing. The layout is optimized for an A4 sheet of paper.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This project is built using React and TypeScript. These technologies were chosen for their robustness and the development speed they offer.
 
-- Configure the top-level `parserOptions` property like this:
+- React version: 18.3.3
+- TypeScript version: 5.2.2
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Features
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **A4 Optimized Layout**: The layout of the CV/Resume is optimized for printing on an A4 sheet of paper.
+- **Easy to Update**: The project structure and code organization make it easy to update the CV/Resume with new information.
+
+## Project Status
+
+The project is currently in progress. As my career progresses, I plan to update this CV/Resume with new experiences and skills.
