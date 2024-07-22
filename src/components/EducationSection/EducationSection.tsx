@@ -20,7 +20,7 @@ const EducationSection = () => {
     <>
       <div>Bachelor of Software Engineering (Honours) / </div>
       <div>Bachelor of Science (Mathematics)</div>
-      <div>GPA: 8.80/9.00</div>
+      <div>GPA: 8.73/9.00</div>
     </>,
     <>
       <div>NCEA Level 2 and 3 with Excellence Endorsement</div>
