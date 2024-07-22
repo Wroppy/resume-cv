@@ -18,6 +18,7 @@ const SubColumn = () => {
       <LanguagesSection />
       <CustomDivider />
       <RefereesSection />
+      <CustomDivider />
     </div>
   );
 };
