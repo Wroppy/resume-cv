@@ -6,7 +6,7 @@ import RecordSection from "../RecordSection/RecordSection";
 const AchievementsSection = () => {
   const achievements: Record[] = [
     {
-      name: "Certificate of Distinction (Stats 101)",
+      name: "Certificate of Distinction (Stats 101, Maths 162)",
       timestamp: "2024",
     },
     {
